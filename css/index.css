@@ -1,0 +1,172 @@
+@font-face{
+    font-family: fuente_1;
+    src: url(../gotham-narrow-cufonfonts/GothamNarrow-LightItalic.otf);
+}
+@font-face{
+    font-family: fuente_2;
+    src: url(../gotham-narrow-cufonfonts/GothamNarrow-BoldItalic.otf);
+}
+@font-face{
+    font-family: fuente_3;
+    src: url(../gotham-narrow-cufonfonts/GothamNarrow-Bold.otf);
+}
+@font-face{
+    font-family: fuente_4;
+    src: url(../gotham-narrow-cufonfonts/GothamNarrow-Black.otf);
+}
+@font-face{
+    font-family: fuente_5;
+    src: url(../gotham-narrow-cufonfonts/GothamNarrow-Light.otf);
+}
+@font-face{
+    font-family: fuente_6;
+    src: url(../gotham-narrow-cufonfonts/GothamNarrow-Medium.otf);
+}
+@font-face{
+    font-family: fuente_7;
+    src: url(../gotham-narrow-cufonfonts/GothamNarrow-XLight.otf);
+}
+
+.tarjeta{
+    position: absolute; 
+    padding: 5px 10px;
+    background: #150183F9;
+    margin-top: 35px;
+    z-index: 100;
+}
+.escala:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+.escala{
+    transition: .5s ease-in-out;
+}
+.footer{
+    height: 135px;
+}
+.color1{
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e9db18, #3d21b1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e6b00f, #3d21b1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color2{
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #081ec0, #cf0b12);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #081ec0, #cf0b12); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color3{
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #081ec0, #cfb20b);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #081ec0, #cfb20b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.color4{
+    background: #780206;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eb0a0a, #994144);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eb0a0a, #994144); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.contacto{
+   background: #F4F5FE;
+}
+.line-color{
+    width: 20%;
+    height: 8px;
+    background: #150183F9;
+    margin-left: 0;
+}
+
+.form-control{
+    border: 3px solid #C9CAD6;
+}
+#conectamos{
+    margin-top: -250px;
+}
+.fuente1{
+    font-size: 60px; 
+}
+.fuente2{
+    font-size: 65px;
+}
+.fuente3{
+    font-size: 35px;
+}
+.fuente4{
+    font-size: 60px; 
+}
+@media screen and (max-width:767px){
+    #contacto{
+        text-align: center;
+    }
+    .line-color{
+        margin: auto;
+        text-align: center;
+    }
+    #conectamos{
+        text-align: center;
+    }
+    #espacio{
+        margin-top: -180px;
+    }
+    #contacto-footer{
+       flex-direction: column;
+    }
+   
+    .centro{
+        width: 100%;
+        text-align: center;
+
+    }
+}
+@media screen and (max-width:686px){
+    .fuente4,
+    .fuente3{
+        font-size: 40px;
+    }
+    .carousel-item img{
+        visibility: hidden;
+    }
+    .carousel-item{
+        background-image: url(../imagenes/banner-index.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:450px){
+    #evento{
+        top: -100px;
+    }
+    .fuente1{
+        font-size: 30px; 
+        line-height: 100px;
+    }
+    .fuente2{
+        font-size: 35px;
+    }
+    .fuente3{
+        font-size: 35px;
+    }
+    .fuente4{
+        font-size: 20px; 
+    }
+    .icono{
+        visibility: hidden;
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:320px){
+    .proximos{
+        margin-top: -150px;
+    }
+    #evento{
+        top: 20px;
+    }
+  
+}
+
